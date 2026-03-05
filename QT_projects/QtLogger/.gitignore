@@ -1,9 +1,14 @@
-# Ignore build directories
-build/
-bin/
-out/
-*.class
-*.o
-*.exe
-*.ts
+# Ignore editor temporary files
+*.TMP
+*~
 
+# Ignore Qt build files
+build/
+*.o
+*.obj
+*.exe
+*.pro.user
+*.ts
+# Ignore IDE folders
+/.idea/
+/.vscode/
